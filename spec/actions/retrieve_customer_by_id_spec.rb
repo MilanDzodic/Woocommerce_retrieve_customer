@@ -45,7 +45,7 @@ RSpec.describe 'actions.retrieve_customer_by_id' do
     # 3. Parsa resultatet med den korrekta metoden :serialized_output
     data = JSON.parse(response.serialized_output)
 
-    # Snygg utskrift för bekräftelse
+    # Utskrift för bekräftelse
     puts "\n" + "="*40
     puts "DATA FRÅN RUST-ACTION (WASM):"
     pp data
